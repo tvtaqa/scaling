@@ -170,7 +170,7 @@ def execute(num_pod,limit_pod,arg):
 
 
     #执行伸缩方案
-    recommend_cpu_requests = int(1.0*limit_pod/3)
+    recommend_cpu_requests = int(limit_pod)
     #recommend_mem_requests = 200
     recommend_cpu_limits = int(limit_pod)
     #recommend_mem_limits = 200
