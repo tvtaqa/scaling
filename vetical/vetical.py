@@ -269,7 +269,7 @@ def main():
     with open(_YAML_FILE_NAME) as f:
         arg = yaml.load(f, Loader=yaml.FullLoader)
     loadfromtxt, rpsfromtxt, limitfromtxt = prepare()
-    # rtt=getRTT(890,896,0.15,1)
+    # rtt=getRTT(890,896,0.15,1)jjjj
     # print(rtt)
     decide(loadfromtxt, rpsfromtxt, limitfromtxt, arg)
 
